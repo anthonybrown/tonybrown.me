@@ -1,0 +1,15 @@
+.sidebar {
+  width: 25%;
+  float: right;
+  margin: 55px 5% 0 0;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    color: $blue;
+  }
+
+}

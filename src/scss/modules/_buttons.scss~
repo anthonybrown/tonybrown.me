@@ -1,0 +1,28 @@
+/* round button class */
+
+.round_sm {
+  width:80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 0 0 1em;
+  line-height: 4.7;
+  text-align: center;
+  background-color: #575757;
+}
+
+#page-intro .btn{
+    color: #fff !important;
+    display: block;
+    margin: 40px auto;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 18px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
