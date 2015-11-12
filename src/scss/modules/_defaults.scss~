@@ -113,8 +113,9 @@ body {
 #page-intro h1{
     text-align: center;
     color: #fff;
-    font: normal 60px 'Droid Serif', sans-serif;
+    font: normal 60px 'Raleway', sans-serif;
     padding-top: 24vh;
+    text-shadow: -2px -3px 2px #000;
 }
 
 .features-list{
