@@ -1,6 +1,7 @@
-# sticky footer
-the css is setup for a sticky footer    
-most of the time, I'm just testing UI widgets and the like.    
-It's easy enough to just change the .scss files to start from completely     
-no styles.
 # tonybrown.me
+
+### Todo
+1. Code needs to be refactored.
+2. Want to use the Sass setup.
+3. finish setting up my copy of sites with missing links.
+4. Fix the anchor tags around div tags.
