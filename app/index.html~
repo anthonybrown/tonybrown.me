@@ -3,15 +3,10 @@
 <head lang='en' dir='ltr'>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-
     <title>The personal website of Tony Brown</title>
-
 		<link href='https://fonts.googleapis.com/css?family=Raleway:700|Merriweather' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 		<link href="assets/demo.css" rel="stylesheet">
-
-
 </head>
 <body>
 <div
@@ -101,13 +96,10 @@
 					is responsive but there might be some older projects I did before RWD became main stream.
 					I hope you enjoy what you see and thank you once again for stopping by.
         </p>
-
     </div>
-
     <div class="gap" style="background-image:url(assets/img/use-these/mac-1.jpg); "></div>
 
-    <div class="features-list">
-
+		<div class="features-list">
         <h2>What I Do</h2>
 
         <div data-100-bottom-top="transform: translateX(-200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1">
@@ -124,11 +116,9 @@
             <i class="material-icons">supervisor_account</i>
             <h4>Looking to join <b>a team with people smarter than I. </b></h4>
         </div>
-
     </div>
 
     <div class="gap" style="background-image:url(assets/img/use-these/startups.jpg); "></div>
-
 
     <div class="about-us">
 
@@ -157,40 +147,24 @@
         <div data-50-bottom-center="transform: rotateY(-90deg); opacity: 0" data-50-center-center="transform: rotate(0); opacity: 1">
             <img src="assets/img/lowcost.png" alt="cd player">
         </div>
-
     </div>
-
     <div class="gap" style="background-image:url(assets/images/use-these/clock.jpg);"></div>
-
     <div class="gallery">
 			<h2>My Work</h2>
 		</div>
     <footer>
-
         <div class="footer-left">
-
             <h3>TonyBrown</h3>
             <p class="footer-company-name">Useful Robot Ninja&copy; 2015</p>
-
         </div>
-
         <div class="footer-right"  data-bottom-top="max-width: 200px;" data-bottom-bottom="max-width: 600px;">
-
             <form method="get" action="#">
                 <input placeholder="Search my site"  />
                 <i class="material-icons">search</i>
             </form>
-
         </div>
-
     </footer>
-
-
 </div>
-
-
-
-
 <div class="scroll-pause" data-anchor-target=".gallery" data-100p-top-top="transform:translateY(100%);" data-top-top="transform:translateY(0%)" data--150p-top-top="" data--300p-top-top="transform:translateY(-100%)">
 
     <div class="row" data-anchor-target=".gallery" data-top-top="transform: translateX(0%);" data--150p-top-top="transform: translateX(-50%);">
@@ -228,7 +202,7 @@
 
         <a href='http://anthonybrown.github.io/spa-app/spa/'><div style="background-image:url(assets/img/small/weather-app.jpg);" ></div></a>
 
-        <div style="background-image:url(assets/img/small/darin-layne.jpg);" ></div>
+				<a href='http://tonybrown.me/proaudiodistro/'><div style="background-image:url(assets/img/small/proaudiodistro.jpg);" ></div></a>
 
     </div>
 
