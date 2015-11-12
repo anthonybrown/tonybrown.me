@@ -7,7 +7,11 @@
 }
 
 body{
-    font: normal 14px/1.4 Arial, Helvetica, sans-serif;
+    font: normal 14px/1.4 'Merriweather', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
 }
 header{
 	box-sizing: border-box;
@@ -23,6 +27,7 @@ header h1{
 	float: left;
 	font: normal 24px/1.5 'Raleway', sans-serif;
 	color: #fff;
+	text-shadow: -1px -2px 2px #000;
 }
 
 header a{
@@ -154,8 +159,9 @@ ul li{
 #page-intro h1{
 	text-align: center;
 	color: #fff;
-	font: normal 60px 'Droid Serif', sans-serif;
+	font: normal 60px 'Raleway', sans-serif;
 	padding-top: 24vh;
+	text-shadow: -1px -2px 2px #000;
 }
 
 @media (max-width: 800px) {
@@ -321,12 +327,16 @@ ul li{
 
 
 .gallery{
-	color: #221f51;
+	color: #7b7b7b;
 	font: normal 24px sans-serif;
 	min-height: 300vh;
 	text-align: center;
 	overflow: hidden;
 	background: linear-gradient(white, #EEF6F9);
+}
+
+.gallery img {
+	border: 1px solid #999;
 }
 
 .scroll-pause{
@@ -354,7 +364,8 @@ ul li{
 	background-position: center;
 	background-size: cover;
 	margin: 0.5%;
-	border-radius: 10px;
+	border-radius: 7px;
+	border: 1px solid #e8e8e8;
 }
 
 .scroll-pause .row div:first-child{
@@ -387,7 +398,7 @@ footer .footer-left{
 
 footer h3{
 	color:  #5383d3;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px 'Raleway', sans-serif;
 	margin: 0;
 }
 
