@@ -1,5 +1,9 @@
 # tonybrown.me
 
+The app is in the app directory, the SaSS files are in the src
+directory. To start the server use the *grunt* command, to build
+and minified, use *grunt build*.
+
 ### Todo
 1. Code needs to be refactored.
 2. Want to use the Sass setup.
