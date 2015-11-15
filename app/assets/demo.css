@@ -1,23 +1,31 @@
 /*  Page styles  */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
 body{
-    font: normal 14px/1.4 'Merriweather', Arial, Helvetica, sans-serif;
+    font: normal 1em/1.625 'Merriweather', Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	color: #676767;
 }
+
 a {
 	text-decoration: none;
 	color: rgb(41, 171, 226);
 }
+
 header{
 	box-sizing: border-box;
 	text-align: center;
@@ -26,7 +34,6 @@ header{
 	background-color: #357F9C;
 	overflow: hidden;
 }
-
 
 header h1{
 	float: left;
@@ -69,7 +76,6 @@ ul a{
 	margin: 4px;
 	line-height: 1;
 	outline: none;
-
 	transition: 0.2s ease;
 }
 
@@ -88,15 +94,14 @@ ul li{
 }
 
 .skrollr-desktop body {
-    height:100% !important;
+  height:100% !important;
 }
 
 #skrollr-body {
-    height:100%;
-    position:relative;
-    overflow: hidden;
+	height:100%;
+	position:relative;
+	overflow: hidden;
 }
-
 
 /*  Styles for this example */
 
@@ -114,11 +119,9 @@ ul li{
 	left:0;
 	width:100%;
 	overflow:hidden;
-
 	height:80vh;
 	top:-80vh;
 }
-
 
 .parallax-image {
 	display:none;
@@ -129,11 +132,9 @@ ul li{
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
-
 	height:100vh;
 	top:0;
 }
-
 
 .parallax-image.skrollable-between {
   display:block;
@@ -142,8 +143,6 @@ ul li{
 .no-skrollr .parallax-image-wrapper {
   display:none !important;
 }
-
-
 
 .gap {
 	background:transparent center no-repeat;
@@ -155,16 +154,14 @@ ul li{
   background:transparent !important;
 }
 
-
 /*  End of scrollr styles   */
-
 
 /*Intro*/
 
 #page-intro h1{
 	text-align: center;
 	color: #fff;
-	font: normal 60px 'Raleway', sans-serif;
+	font: normal 4em 'Raleway', sans-serif;
 	padding-top: 24vh;
 	text-shadow: -1px -2px 2px #000;
 }
@@ -190,21 +187,17 @@ ul li{
 	text-decoration: none;
 }
 
-
-
 /*Body Text*/
-
-
 .body-text{
 	padding: 140px 0;
 	background-color: #fff;
 	color: #25373C;
-	font-size: 18px;
+	font-size: 1.2em;
 	text-align: center;
 }
 
 .body-text h2{
-	font-size: 42px;
+	font-size: 3em;
 	font-weight: normal;
 	margin-bottom: 80px;
 	color: #686868;
@@ -234,13 +227,13 @@ ul li{
 	padding: 150px 0;
 	background-color: #fff;
 	color: #25373C;
-	font-size: 18px;
+	font-size: 1.2em;
 	min-height: 100vh;
 	text-align: center;
 }
 
 .features-list h2{
-	font-size: 42px;
+	font-size: 3em;
 	margin-bottom: 80px;
 	font-weight: normal;
 }
@@ -261,7 +254,7 @@ ul li{
 }
 
 .features-list div h4{
-	font-size: 18px;
+	font-size: 1em;
 	text-transform: uppercase;
 	color: #425F67;
 	font-weight: normal;
@@ -280,17 +273,17 @@ ul li{
 
 /*About us*/
 
-.about-us{
+.about-us {
 	padding: 150px 0;
 	background-color: #fff;
 	min-height: 120vh;
 	text-align: center;
 	color: #25373C;
-	font-size: 18px;
+	font-size: 1.2em;
 }
 
 .about-us h2{
-	font-size: 42px;
+	font-size: 3em;
 	margin-bottom: 80px;
 	font-weight: normal;
 }
@@ -310,7 +303,7 @@ ul li{
 
 .about-us a.attribution{
 	display: block;
-	font-size: 13px;
+	font-size: 0.9em;
 	text-decoration: none;
 	color: inherit;
 	width: 280px;
@@ -339,6 +332,11 @@ ul li{
 	text-align: center;
 	overflow: hidden;
 	background: linear-gradient(white, #EEF6F9);
+}
+
+.gallery h2 {
+	font-size: 2.7em;
+	margin-bottom: 80px;
 }
 
 .gallery img {
@@ -382,137 +380,197 @@ ul li{
   margin-right: 0.4%;
 }
 
+/* Footer */
 
-
-/*Footer*/
-footer{
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.04);
+.footer {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	font: bold 16px sans-serif;
+	font: bold 1em sans-serif;
 	text-align: left;
-	padding: 50px 60px 55px;
+	padding: 50px 60px 40px;
+	margin-top: 80px;
 	overflow: hidden;
 }
 
 /* Footer left */
 
-footer .footer-left{
-  float: left;
+.footer .footer-left{
+	float: left;
 }
 
-footer h3{
+.footer h3{
+	color:  #ffffff;
+	font: normal 3em 'Raleway', sans-serif;
+	margin: 0 0 10px;
+}
+
+.footer h3 span{
 	color:  #5383d3;
-	font: normal 36px 'Raleway', sans-serif;
-	margin: 0;
 }
 
-footer .footer-links{
-	color: #95A4A9;
-	margin: 22px 0 14px;
+/* Footer links */
+
+.footer .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
 	padding: 0;
 }
 
-footer .footer-links a{
-	display: inline-block;
+.footer .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
 	text-decoration: none;
-	color: #50B575;
+	color:  inherit;
 }
 
-footer .footer-company-name{
+.footer .footer-company-name{
 	color:  #8f9296;
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: normal;
 	margin: 0;
 }
 
+/* Footer social icons */
 
-/* Footer right */
+.footer .footer-icons{
+	margin-top: 40px;
+}
 
-footer .footer-right{
+.footer .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 3px;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer .footer-right{
 	float: right;
-	width: 100%;
 }
 
-/* The search form */
-
-footer form{
-  position: relative;
+.footer .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
 }
 
-footer form input{
+/* The contact form */
+
+.footer form{
+	display: inline-block;
+}
+
+.footer form input,
+.footer form textarea{
 	display: block;
+	border-radius: 3px;
 	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
 	font: inherit;
-	font-size: 14px;
+	font-size: 0.9em;
 	font-weight: normal;
-	color: #32383A;
-	width: 100%;
-	padding: 18px 50px 18px 18px;
-	outline: none;
-	border: 1px solid #e0e0e0;
-	border-radius: 2px;
-	box-shadow: 0 1px 1px #eee;
+	color:  #d1d2d2;
+	width: 400px;
+	padding: 18px;
 }
 
-footer form input:focus{
-  border-color:#ccc;
+.footer ::-webkit-input-placeholder {
+	color: #5c666b;
 }
 
-/* Changing the placeholder color */
-
-footer form input::-webkit-input-placeholder {
-  color:  #5c666b;
-}
-
-footer form input::-moz-placeholder {
+.footer ::-moz-placeholder {
+	color: #5c666b;
 	opacity: 1;
+}
+
+.footer :-ms-input-placeholder{
 	color:  #5c666b;
 }
 
-footer form input:-ms-input-placeholder{
-  color:  #5c666b;
+
+.footer form input{
+	height: 55px;
+	margin-bottom: 15px;
 }
 
-/* The magnify glass icon */
+.footer form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
 
-footer form i{
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	top: 16px;
-	right: 18px;
-
-	color: #d1d2d2;
-	font-size: 20px;
+.footer form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
 }
 
 @media (max-width: 1000px) {
 
-    header h1{
-      float: none;
-    }
+	.footer {
+		font: bold 0.9em sans-serif;
+	}
 
-    header a{
-			margin-top: 25px;
-			float: none;
-    }
-}
+	.footer .footer-company-name{
+		font-size: 0.7em;
+	}
 
-/* If you don't want the footer to be responsive, remove these media queries */
+	.footer form input,
+	.footer form textarea{
+		width: 250px;
+	}
 
-@media (max-width: 1100px) {
-
-    footer .footer-left{
-      margin-bottom: 50px;
-    }
-
-    footer .footer-right{
-			float: left;
-			clear: left;
-    }
+	.footer form button{
+		padding: 10px 35px;
+	}
 
 }
 
+@media (max-width: 800px) {
 
+	.footer {
+		padding: 30px;
+	}
+
+	.footer .footer-left,
+	.footer .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer form{
+		margin-top: 30px;
+	}
+
+	.footer form{
+		display: block;
+	}
+
+	.footer form button{
+		float: none;
+	}
+
+}
