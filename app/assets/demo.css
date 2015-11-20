@@ -574,3 +574,34 @@ ul li{
 	}
 
 }
+
+/* contact form */
+
+#contact {
+	display: block;
+	width: 650px;
+	margin: 70px auto;
+	padding: 35px;
+	border: 1px solid #cbcbcb;
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.error_message {
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	background: #FBE3E4 url('assets/error.gif') no-repeat 10px center;
+	padding: 3px 10px 3px 35px;
+	margin: 10px 0;
+	color:#8a1f11;
+	border: 1px solid #FBC2C4;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+#succsess_page h1 {
+	background: url('assets/success.gif') left no-repeat;
+	padding-left:22px;
+}
