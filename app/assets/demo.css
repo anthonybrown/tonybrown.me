@@ -601,11 +601,14 @@ ul li{
 	-webkit-border-radius:5px;
 }
 
+<<<<<<< HEAD
 .center {
 	width: 50%;
 	margin: 2em auto 0;
 }
 
+=======
+>>>>>>> c231f6c392ac5418de8d372d6cea7a0d3cbd5f81
 #succsess_page h1 {
 	background: url('assets/success.gif') left no-repeat;
 	padding-left:22px;
