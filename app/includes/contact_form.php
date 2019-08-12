@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 $errors = '';
 $myemail = 'tony@tonybrown.me';//<-----Put Your email address here.
@@ -192,4 +191,3 @@ return(preg_match("/^[-_.[:alnum:]]+@((([[:alnum:]]|[[:alnum:]][[:alnum:]-]*[[:a
 
 </body>
 </html>
->>>>>>> c231f6c392ac5418de8d372d6cea7a0d3cbd5f81
